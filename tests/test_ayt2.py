@@ -1,5 +1,6 @@
 import pytest
 
+print ('tttt')
 
 def func(x):
     return x + 1
