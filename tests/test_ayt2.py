@@ -1,9 +1,9 @@
 import pytest
 
-print ('tttt')
 
 def func(x):
     return x + 1
+    print ('tttt')
 
 def test_a():
     assert func(4) == 5
