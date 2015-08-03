@@ -5,5 +5,5 @@ setup(
     py_modules=['pytest_ayt2'],
     entry_points={'pytest11': ['ayt2 = pytest_ayt2']},
     platforms='any',
-    install_requires=['pytest>=2.3']
+    install_requires=['pytest']
 )
