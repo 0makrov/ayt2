@@ -1,6 +1,6 @@
+print ('cccc')
 
-
-def pytest_addoption(parser):
-    print('cccc') #nothing doing
+def pytest_runtest_setup(item):
+    print ("setting up", item)
 
 pytest_plugins = "pytester",
