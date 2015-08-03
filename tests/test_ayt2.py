@@ -1,3 +1,5 @@
+import pytest
+
 print 'tttt'
 
 def func(x):
