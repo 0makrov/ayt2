@@ -1,6 +1,7 @@
 print 'cccc'
 
-def func(x):
-    return x + 1
+def pytest_runtest_setup(item):
+    def func(x):
+        return x + 1
 
 pytest_plugins = "pytester",
