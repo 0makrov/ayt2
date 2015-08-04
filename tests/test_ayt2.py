@@ -15,4 +15,4 @@ def test_b():
 
 def test_version():
     assert hasattr(pytest_ayt2, '__version__')
-    assert pytest_ayt2.'__version__' == '14'
+    assert pytest_ayt2.__version__ == '14'
